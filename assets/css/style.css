@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #FAC224;
-    --secondary-color: #B133FF;
-    --tertiary-color: #B00C3F;
+    --primary-color: #020230;
+    --secondary-color: #2a247a;
+    --tertiary-color: #b0380c;
   }
 /* apply styles to <header> */
 header {
@@ -70,6 +70,27 @@ body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
   }
+
+#runbuddy {
+background-image:url(../images/hero-bg.jpg);
+background-color: #b0380c;
+flex: auto;
+border: #020230 5px 5px;
+width: 100%;
+  }
+
+  .project_2 {
+  background-image:url(../images/doodly_image.jpg);
+  flex: auto;
+  height: 50px;
+  width: 50px;
+  border: #020230;
+}
+
+  .p span {
+    background-color: "";
+  }
+  
 section {
     padding: 60px;
 }
@@ -304,7 +325,7 @@ section {
 
 /* REACH OUT STYLES END */
 footer {
-  background: var(--primary-color);
+  background: var(--tertiary-color);
   width: 100%;
   padding: 40px 35px;
   display: flex;
